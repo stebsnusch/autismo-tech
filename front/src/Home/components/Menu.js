@@ -22,7 +22,7 @@ export const Menu = () => {
                         startIcon={option.icon}
                         style={STYLES.MAIN_MENU}
                         variant="contained"
-                        onClick={goToNextPage(option.path)}
+                        onClick={() => goToNextPage(option.path)}
                         fullWidth
                     >
                             {option.label}
