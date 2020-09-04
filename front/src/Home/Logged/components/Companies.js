@@ -9,9 +9,9 @@ import {
 
 import GradeIcon from '@material-ui/icons/Grade';
 
-import { STYLES } from '../../utils/constants';
+import { STYLES } from '../../../utils/constants';
 
-import { getHighlightedCompanies } from '../api';
+import { getHighlightedCompanies } from '../../api';
 
 export const Companies = () => {
 

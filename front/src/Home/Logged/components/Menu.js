@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import { Button, Grid } from '@material-ui/core';
-import { STYLES, MENU_OPTIONS } from '../../utils/constants';
+import { STYLES, MENU_OPTIONS } from '../../../utils/constants';
 
 export const Menu = () => {
     const history = useHistory();

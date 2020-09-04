@@ -86,7 +86,20 @@ export const STYLES = Object.freeze({
       },
       BACKGROUND: {
         backgroundColor: '#1C1C1C',
-        color: '#fff'
+        color: '#fff',
+        borderTop: '10px solid #b70012',
+      },
+      LINKS: {
+        color: "#fff",
+        textDecoration: 'none',
+        fontSize: '1.2rem',
       }
+    },
+    TOOLTIPS: {
+      maxWith: '300px',
+    },
+    WHITE_BUTTON: {
+      color: '#fff',
+      borderColor: '#fff',
     }
   });
