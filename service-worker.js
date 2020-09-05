@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/autismo-tech/precache-manifest.c96b197cfc60be4629ad0f3c65e327d4.js"
+  "/autismo-tech/precache-manifest.6a60dc27998067e2e19729f4e7d79a99.js"
 );
 
 self.addEventListener('message', (event) => {

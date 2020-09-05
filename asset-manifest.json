@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/autismo-tech/static/css/main.9ba219c2.chunk.css",
-    "main.js": "/autismo-tech/static/js/main.ce0fd5ff.chunk.js",
-    "main.js.map": "/autismo-tech/static/js/main.ce0fd5ff.chunk.js.map",
+    "main.js": "/autismo-tech/static/js/main.78319613.chunk.js",
+    "main.js.map": "/autismo-tech/static/js/main.78319613.chunk.js.map",
     "runtime-main.js": "/autismo-tech/static/js/runtime-main.b70fe218.js",
     "runtime-main.js.map": "/autismo-tech/static/js/runtime-main.b70fe218.js.map",
     "static/js/2.7d29621e.chunk.js": "/autismo-tech/static/js/2.7d29621e.chunk.js",
     "static/js/2.7d29621e.chunk.js.map": "/autismo-tech/static/js/2.7d29621e.chunk.js.map",
     "index.html": "/autismo-tech/index.html",
-    "precache-manifest.c96b197cfc60be4629ad0f3c65e327d4.js": "/autismo-tech/precache-manifest.c96b197cfc60be4629ad0f3c65e327d4.js",
+    "precache-manifest.6a60dc27998067e2e19729f4e7d79a99.js": "/autismo-tech/precache-manifest.6a60dc27998067e2e19729f4e7d79a99.js",
     "service-worker.js": "/autismo-tech/service-worker.js",
     "static/css/main.9ba219c2.chunk.css.map": "/autismo-tech/static/css/main.9ba219c2.chunk.css.map",
     "static/js/2.7d29621e.chunk.js.LICENSE.txt": "/autismo-tech/static/js/2.7d29621e.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.b70fe218.js",
     "static/js/2.7d29621e.chunk.js",
     "static/css/main.9ba219c2.chunk.css",
-    "static/js/main.ce0fd5ff.chunk.js"
+    "static/js/main.78319613.chunk.js"
   ]
 }
