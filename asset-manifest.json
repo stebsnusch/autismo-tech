@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/autismo-tech/static/css/main.9ba219c2.chunk.css",
+    "main.js": "/autismo-tech/static/js/main.9f073304.chunk.js",
+    "main.js.map": "/autismo-tech/static/js/main.9f073304.chunk.js.map",
+    "runtime-main.js": "/autismo-tech/static/js/runtime-main.b70fe218.js",
+    "runtime-main.js.map": "/autismo-tech/static/js/runtime-main.b70fe218.js.map",
+    "static/js/2.aa8a5fad.chunk.js": "/autismo-tech/static/js/2.aa8a5fad.chunk.js",
+    "static/js/2.aa8a5fad.chunk.js.map": "/autismo-tech/static/js/2.aa8a5fad.chunk.js.map",
+    "index.html": "/autismo-tech/index.html",
+    "precache-manifest.518fd833e65001f29c37a34757f22a95.js": "/autismo-tech/precache-manifest.518fd833e65001f29c37a34757f22a95.js",
+    "service-worker.js": "/autismo-tech/service-worker.js",
+    "static/css/main.9ba219c2.chunk.css.map": "/autismo-tech/static/css/main.9ba219c2.chunk.css.map",
+    "static/js/2.aa8a5fad.chunk.js.LICENSE.txt": "/autismo-tech/static/js/2.aa8a5fad.chunk.js.LICENSE.txt",
+    "static/media/alura.png": "/autismo-tech/static/media/alura.d3e401b7.png",
+    "static/media/autismojobs-white.png": "/autismo-tech/static/media/autismojobs-white.2601cd28.png",
+    "static/media/avanade.png": "/autismo-tech/static/media/avanade.e8a72195.png",
+    "static/media/builders.png": "/autismo-tech/static/media/builders.b1882ea8.png",
+    "static/media/ey-logo.png": "/autismo-tech/static/media/ey-logo.a3375c37.png",
+    "static/media/magalu.png": "/autismo-tech/static/media/magalu.96e24421.png",
+    "static/media/zup.png": "/autismo-tech/static/media/zup.2a994941.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b70fe218.js",
+    "static/js/2.aa8a5fad.chunk.js",
+    "static/css/main.9ba219c2.chunk.css",
+    "static/js/main.9f073304.chunk.js"
+  ]
+}
