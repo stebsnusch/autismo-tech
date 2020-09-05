@@ -2,7 +2,7 @@
 
 Projeto do **Time 14** para a Hackathon Autismo Tech 2020.
 
-[![TIME 14 - VÍDEO PITCH]('./assets/pitch/TIME14-AUTISMOJOBS.png')](https://www.youtube.com/watch?v=ia4KuKD87QU)
+[![TIME 14 - VÍDEO PITCH]('assets/pitch/TIME14-AUTISMOJOBS.png')](https://www.youtube.com/watch?v=ia4KuKD87QU)
 Clique na imagem para assistir ao vídeo pitch!
 
 ## Como navegar
