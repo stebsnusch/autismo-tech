@@ -14,8 +14,7 @@ import {
   Grid,
 } from '@material-ui/core';
 
-export const Logged = () => {
-  const userType = '';
+export const Logged = ({userType}) => {
   return (
     <Fragment>
       <Box style={STYLES.HEADER_BACKGROUND} mb={4}>

@@ -4,8 +4,13 @@ import { Link } from 'react-router-dom';
 import { Typography, Grid, Button } from '@material-ui/core';
 import { STYLES, MENU_OPTIONS } from '../utils/constants';
 
-export const Footer = () => {
-    console.log(MENU_OPTIONS.APPLICANT);
+export const Footer = ({userType}) => {
+    const renderMenu = (item, index) => (
+        <Grid item key={index}>
+            <Link style={STYLES.FOOTER.LINKS} to={item.path}>{item.label}</Link>
+        </Grid>
+    );
+
     return (
         <Grid
             direction="row"
@@ -35,11 +40,9 @@ export const Footer = () => {
                     alignContent="center"
                     spacing={1}>
                     <Typography variant="h4">Menu</Typography>
-                    {MENU_OPTIONS.APPLICANT.map((item, index) => (
-                        <Grid item key={index}>
-                            <Link style={STYLES.FOOTER.LINKS} to={item.path}>{item.label}</Link>
-                        </Grid>
-                    ))}
+                    {userType === 'company' ?
+                        MENU_OPTIONS.COMPANY.map(renderMenu) :
+                        MENU_OPTIONS.APPLICANT.map(renderMenu)}
                 </Grid>
             </Grid>
             <Grid xs={4} item>

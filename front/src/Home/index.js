@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import { Logged } from '../Home/Logged';
 import { Standard } from '../Home/Standard';
 
-export const Home = () => {
+export const Home = ({userType}) => {
 
   const isLogged = true;
 
@@ -11,7 +11,7 @@ export const Home = () => {
     <Fragment>
       {
         isLogged ?
-          <Logged /> :
+          <Logged userType={userType} /> :
           <Standard />
       }
     </Fragment>

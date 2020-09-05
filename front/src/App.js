@@ -23,12 +23,13 @@ import { Premium } from './Premium';
 import { RatingPage } from './RatingPage';
 
 function App() {
+  const userType = 'company';
   return (
     <div className="App">
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" render={() => <Home userType={userType} />} />
           <Route exact path="/profile" component={Profile} />
           <Route exact path="/company/:companyId" component={CompanyPage} />
           <Route exact path="/learning-center" component={LearningCenter} />
@@ -37,7 +38,7 @@ function App() {
         </Switch>
         <Box style={STYLES.FOOTER.BACKGROUND} mt={8} p={4}>
           <Container maxWidth="lg">
-            <Footer />
+            <Footer userType={userType} />
           </Container>
         </Box>
       </MuiThemeProvider>
