@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
+import React, { useEffect } from 'react';
 import './assets/css/fonts.css';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, useLocation, useHistory } from 'react-router-dom';
 
 import { MuiThemeProvider } from '@material-ui/core/styles';
 
@@ -23,7 +23,19 @@ import { Premium } from './Premium';
 import { RatingPage } from './RatingPage';
 
 function App() {
-  const userType = 'company';
+  const userType = '';
+  const urlRoot = window.location.hostname;
+  const location = useLocation();
+  let urlPrefix = location.pathname;
+
+  const redirect = () => {
+    if (urlRoot.includes("githuib.io") && !urlRoot.includes("autismo-tech")) {
+      return urlPrefix = '/ausitmo-tech' + urlPrefix;
+    }
+  }
+
+  redirect();
+
   return (
     <div className="App">
       <MuiThemeProvider theme={theme}>
