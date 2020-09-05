@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc518c3db708a1e705168a0023bfd03e",
+    "revision": "c4c94d423d36bcdc87cfadb6530b55ae",
     "url": "/autismo-tech/index.html"
   },
   {
-    "revision": "07c43e3c0d6d72c45957",
+    "revision": "53bc6c78ea5d323d4f72",
     "url": "/autismo-tech/static/css/main.9ba219c2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/autismo-tech/static/js/2.aa8a5fad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07c43e3c0d6d72c45957",
-    "url": "/autismo-tech/static/js/main.9f073304.chunk.js"
+    "revision": "53bc6c78ea5d323d4f72",
+    "url": "/autismo-tech/static/js/main.93759004.chunk.js"
   },
   {
     "revision": "97e81b0a2dfc4950c909",
