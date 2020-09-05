@@ -15,7 +15,7 @@ import {
 } from '@material-ui/core';
 
 export const Logged = () => {
-  const userType = 'company';
+  const userType = '';
   return (
     <Fragment>
       <Box style={STYLES.HEADER_BACKGROUND} mb={4}>

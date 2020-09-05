@@ -22,9 +22,6 @@ export const UpdatePhoto = () => {
               Carregar nova foto
             </Button>
           </Grid>
-          <Grid item>
-            <Button variant="contained" color="secondary" size="small">Salvar</Button>
-          </Grid>
         </Grid>
       </Grid>
     </Grid>

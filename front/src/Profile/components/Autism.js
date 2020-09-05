@@ -21,8 +21,8 @@ export const Autism = () => {
         <FormControl>
           <Grid container direction="row" spacing={3}>
             <Grid item xs={12}>
-              <Typography variant="h4">Laudo ou Diagnóstico</Typography>
-              <Button variant="outlined" startIcon={<AttachFileIcon />}>Anexar arquivo</Button>
+              <Typography variant="h4">Laudo ou Diagnóstico</Typography><br />
+              <Button variant="outlined" startIcon={<AttachFileIcon />}>Anexar arquivo</Button> <br />
               <Typography variant="caption">Arquivos com extensão .jpg, .jpeg, .pdf</Typography>
             </Grid>
             <Grid item xs={12}>

@@ -8,6 +8,8 @@ import {
     IconButton,
     Divider,
     Box,
+    Grid,
+    Button,
 } from '@material-ui/core';
 
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
@@ -72,6 +74,12 @@ export const Profile = () => {
                 <Divider />
                 <Box height="30px"></Box>
                 <Autism />
+                <Box height="30px"></Box>
+                <Grid container justify="flex-end">
+                    <Grid item>
+                        <Button variant="contained" color="secondary" size="large">Salvar</Button>
+                    </Grid>
+                </Grid>
             </Container>
         </Fragment>
     );
