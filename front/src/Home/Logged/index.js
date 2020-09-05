@@ -5,6 +5,7 @@ import { STYLES } from '../../utils/constants';
 import { Header } from './components/Header';
 import { Menu } from './components/Menu';
 import { Companies } from './components/Companies';
+import { PremiumLink } from './components/PremiumLink';
 
 import {
   Container,
@@ -14,14 +15,18 @@ import {
 } from '@material-ui/core';
 
 export const Logged = () => {
+  const userType = 'company';
   return (
     <Fragment>
       <Box style={STYLES.HEADER_BACKGROUND} mb={4}>
         <Container maxWidth="lg">
-          <Header />
+          <Header userType={userType} />
         </Container>
       </Box>
       <Container maxWidth="lg">
+        {userType === 'company' &&
+          <PremiumLink />}
+        <Box height="30px"></Box>
         <Grid container spacing={4}>
           <Grid xs={6} item>
             <Box mb={4}>
@@ -29,7 +34,7 @@ export const Logged = () => {
                 Menu principal
               </Typography>
             </Box>
-            <Menu />
+            <Menu userType={userType} />
           </Grid>
           <Grid xs={6} item>
             <Box mb={4}>

@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core';
 import { STYLES } from '../../../utils/constants';
 
-export const Header = () => {
+export const Header = ({userType}) => {
   let history = useHistory();
 
   return (
@@ -22,7 +22,11 @@ export const Header = () => {
         <Grid item>
           <Grid container direction="column" justify="center" alignItems="flex-start" alignContent="center" spacing={2}>
             <Grid item>
-              <Typography variant="h2" component="h2" align="center" style={STYLES.TITLE}>Nome do Candidato</Typography>
+              <Typography variant="h2" component="h2" align="center" style={STYLES.TITLE}>
+                {userType === 'company' ?
+                 'Nome da Empresa':
+                 'Nome do Candidato'}
+              </Typography>
             </Grid>
             <Grid item>
               <Button onClick={() => history.push('/profile')} variant="contained">Editar perfil</Button>

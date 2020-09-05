@@ -2,15 +2,10 @@ import React from 'react';
 
 import {
   Grid,
-  Avatar,
-  Button,
   Typography,
   TextField,
   FormControl
 } from '@material-ui/core';
-import { STYLES } from '../../utils/constants';
-
-import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 
 import { UpdatePhoto } from './UpdatePhoto';
 

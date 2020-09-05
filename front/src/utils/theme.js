@@ -31,9 +31,9 @@ export const theme = createMuiTheme({
       dark: '#7f0012',
     },
     warning: {
-      main: '#ffec00',
+      main: '#fece00',
       light: '#f7ff5f',
-      dark: '#ffce00',
+      dark: '#fece00',
     }
   }
 });

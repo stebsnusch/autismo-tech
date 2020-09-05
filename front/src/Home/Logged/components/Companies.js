@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 
 import {
     Grid,
@@ -14,6 +15,7 @@ import { STYLES } from '../../../utils/constants';
 import { getHighlightedCompanies } from '../../api';
 
 export const Companies = () => {
+    let history = useHistory();
 
     const highlightedCompanies = getHighlightedCompanies();
 
@@ -42,7 +44,7 @@ export const Companies = () => {
                 {renderStars(Math.floor(company.rating))}
             </Grid>
             <Grid item>
-                <Button variant="outlined">Ver mais</Button>
+                <Button variant="outlined" onClick={() => history.push(`/company/${company.id}`)}>Ver mais</Button>
             </Grid>
         </Grid>
     );
