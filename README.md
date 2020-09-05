@@ -1,6 +1,8 @@
 # autismo-tech
 Projeto do **Time 14** para a Hackathon Autismo Tech 2020.
 
+[![TIME 14 - VÍDEO PITCH](https://img.youtube.com/vi/ia4KuKD87QU/0.jpg)](https://www.youtube.com/watch?v=ia4KuKD87QU)
+
 Neste repositório apresentamos as **funcionalidades implementadas**:
 
 * [`/font`](font): *front-end* esboçado para o sistema.
