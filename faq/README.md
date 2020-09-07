@@ -4,9 +4,9 @@
 
 O “dono do patrimònio” é um coletivo com 50% ou mais autistas. Esse coletivo é previsto no nosso Código Civil, no capítulo VI, na seção I o título “Condomínio Voluntário” ([artigos 1.314 a 1.326](http://www.planalto.gov.br/ccivil_03/Leis/2002/L10406.htm#parteespeciallivroiiitituloiiicapitulovise%C3%A7aoi)). Não é muito diferente de um condomínio de moradia (edilício), mas se aplica apenas a o que não é imóvel.
 
-![](../assets/img/condominioVoluntario.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../assets/img/condominioVoluntario.png" alt="drawing" width="620"/>
 
-&nbsp; (detalhes sobre o [conceito de Condomínio Voluntário](https://medium.com/@peterkrauss/condom%C3%ADnio-volunt%C3%A1rio-a-propriedade-comum-que-descentraliza-os-direitos-da-propriedade-privada-5bc92081fd82))
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(detalhes sobre o [conceito de Condomínio Voluntário](https://medium.com/@peterkrauss/condom%C3%ADnio-volunt%C3%A1rio-a-propriedade-comum-que-descentraliza-os-direitos-da-propriedade-privada-5bc92081fd82))
 
 ## O sistema está restrito a alguma especialidade?
 
